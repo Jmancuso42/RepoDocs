@@ -1,0 +1,10 @@
+from clicknium import clicknium as cc, locator 
+
+
+def main():
+    cc.config.set_license('idC+m5GXnIGXlqad0MjQx8bK0N7QoZGal5+TpJeA0MjQwNDe0KGZh9DI0KKXgIGdnJOe0qKAnZSXgYGbnZyTntDe0KSTnpuWk4aXtICdn9DI0MDCwMbfwsPfwsemwsLIwMfIxsvcy8TExsvLwKjQ3tCkk56blpOGl6ad0MjQwMLAxt/CwN/Cx6bCwsjAx8jGy9zLxMTGy8vBqNDe0LSXk4aHgJeB0MipidC8k5+X0MjQv5OKvp2Rk4adgL6bn5uGl9De0KSTnoeX0MjQw8rGxsTFxsbCxcHFwsvHx8PEw8fQj6+P.r78tWVBkCNFDMTE2iYCeguSVswhUw8E9y4zu6HxEF3qqPyl0ImTJsb4TbcUCePT4kPxocnFmp3MCpD/VdPGgYW37wzZIWr0A+cnebk8UkNLqNc8kNaJekN8Zo/ggmnZBHYYKYcLn+E7x6zdeNRF26wkuQ3hF0egKtrcKvbQcCnk=')
+    tab = cc.edge.open("https://depaul.footholdtechnology.com/")
+    tab2 = cc.edge.open("https://depaul.footholdtechnology.com/awards/charts/medical/support_services_contacts/scs/ssc?fs=L3BhcnNlci5waHA%2FcHJvdmlkZXJzX3BocF9SVU49JnByb2duYW1lX2NoYXI9Q2hhcmxlcytKLitMZXNoK01EK0FwYXJ0bWVudHMrU01JJnBncm91cF9pbnQ9MCZnbGNvX2ludD0wJmdsZGl2X2ludD0wJnByb2dzZXRfbG9naT15ZXMmdW49MjA3Nzc2MDA4JnRpbWU9MTcwNDQ4NDk5ODY3Mg%3D%3D")
+
+if __name__ == '__main__':
+    main()
