@@ -21,7 +21,7 @@ from selenium.webdriver.edge.options import Options
 from selenium.webdriver.edge.options import Options as EdgeOptions  # noqa
 from selenium.webdriver import EdgeService as EdgeService  # noqa
 
-class JoeDriver(webdriver.Edge, EdgeOptions = None, EdgeService = None):
+class JoeDriver(webdriver.Edge, EdgeOptions=None, EdgeService=None):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._default_implicit_wait = 10
@@ -32,25 +32,24 @@ class JoeDriver(webdriver.Edge, EdgeOptions = None, EdgeService = None):
         self.options = Options()
         self.service = Service(self.driver_path)
 
-
-    #getter for driver_path
+    # Getter and setter for driver_path
     def get_driver_path(self):
         return self.driver_path
+
     def set_driver_path(self, driver_path):
         self.driver_path = driver_path
-    # Getter for username
+
+    # Getter and setter for username
     def get_username(self):
         return self._username
 
-    # Setter for username
     def set_username(self, username):
         self._username = username
 
-    # Getter for password
+    # Getter and setter for password
     def get_password(self):
         return self._password
 
-    # Setter for password
     def set_password(self, password):
         self._password = password
 
@@ -77,11 +76,55 @@ class JoeDriver(webdriver.Edge, EdgeOptions = None, EdgeService = None):
         )
         sign_in_button.click()
 
-        
+    def dropdown_select(self, dropdown_index=None, dropdown_locatorza=None, dropdown_length=None):
+        dropdown = Select(self.EC.find_element((By.ID, 'clientid_INT')))
+        if dropdown_index is not None:
+            dropdown.select_by_index(dropdown_index)
+            dropdown_name = dropdown.options[dropdown_index].text
+        else:
+            dropdown.select_by_index(0)
+            dropdown_name = dropdown.options[0].text
+        return dropdown_name
 
-        
-        
+    def submit_button_click(self, dropdown_index=None):
+        first_button = self.find_element(By.CSS_SELECTOR, "input[type='submit']")
+        first_button.click()
 
+    def config_driver_default_instance_(self):
+        pass
+
+    def compare_data(self):
+        pass
+
+    def open_browser_to_site(self):
+        try:
+            self.get('https://depaul.footholdtechnology.com')
+            if EC.presence_of_element_located((By.ID, 'handle')):
+                self.sign_in()
+            if EC.presence_of_element_located((By.ID, 'auth-code')):
+                print("waiting for 2fa")
+                wait(self, 60).until_not(EC.presence_of_element_located((By.ID, 'auth-code')))
+            self.get('https://depaul.footholdtechnology.com/awards/charts/medical/support_services_contacts')
+            wait(self, 45).until(method=EC.presence_of_element_located((By.ID, 'clientid_INT')))
+            self.dropdown_select()
+            self.submit_button_click()
+
+        except WebDriverException:
+            current_address = self.current_url
+            print(f"Failed to reach the specified address. Current address: {current_address}")
+
+            manual_url = input("Failed to reach the specified address. Enter URL manually and press enter")
+            self.get(manual_url)
+        except Exception:
+            print(Exception.__traceback__)
+
+    def end_record(self):
+        pass
+
+
+contacts_dict = {}  # checked on the info screen
+check_dict = {}  # checked on the history screen
+        
 
 
 
