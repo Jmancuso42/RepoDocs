@@ -28,11 +28,13 @@ def main():
     username_handle_id = 'handle'
     password_handle_id = 'password'
     auth = Authenticator(driver)
+
+    
     driver.get('https://depaul.footholdtechnology.com')
     wait(driver, 60).until(
         EC.title_contains('Foothold Technology')
     )
-    auth.sign_in(username_handle_id=username_handle_id, password_handle_id=password_handle_id)
+    auth.sign_in(username_handle_id=username_handle_id, password_handle_id=password_handle_id,auth_code_id='auth_code')
 
 
 

@@ -49,13 +49,56 @@ from fuzzywuzzy import fuzz
         #click the continue button
             #good idea to have locked record handling if it gets that far
         # go through the table
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import (
+    NoSuchElementException,
+    WebDriverException,
+    TimeoutException,
+    ElementNotInteractableException,
+)
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.options import Options
+from selenium.webdriver import EdgeService as EdgeService
+from dotenv import load_dotenv
+from fuzzywuzzy import fuzz
+
+from dotenv import load_dotenv
+from fuzzywuzzy import fuzz
+from selenium.webdriver import EdgeService as EdgeService
+from dotenv import load_dotenv
+from fuzzywuzzy import fuzz
+
+#TODO: add a way to compare the data from the two screens
+#TODO: verify that it works up to the dropdown point
+#add a way, maybe regex, to select the role, and then the following value for the role
+#TODO: add a wway to collect what's been done for an audit
+#TODO: add an entry logic
+#TODO: come up with corner cases
+#TODO: add a way to check for the end date, and if it's not there, add it
+#TODO, maybe add a click path for each program, or a way to input the program, or just have it wait till i select one
+
+
+
+
+  #key ideas right now:
+    #from home page, select and click on charts
+        #select/ interact wirth the search bar input with the placeholder elemnt attributes of "search program/ id = "530"
+        #enter the right program name in the search bar by getting input from user or waiting , hit enter
+        #navigate to and click on the anchor link with the text of "support services contacts" in the div 
+        #get the URL of the consumer selection page, store into a variable to use as a return point for each iteration
+        # get the length of the drop down element and store into a variable to use as a range
+        # select the dropdown element according to the iteration number
+        #click the continue button
+            #good idea to have locked record handling if it gets that far
+        # go through the table
 class Navigator:
     '''This class wraps the driver, but adds some additional functionality to the webdriver.Edge class and is mostly use to navigate to pages, routing, and browser config'''
-    def __init__(self, driver, Authenticator, Navigator, ClickHandler, wait):
+    def __init__(self, driver, Authenticator, Navigator, wait):
         self.driver = driver
         self.Authenticator = Authenticator
         self.Navigator = Navigator
-        self.ClickHandler = ClickHandler
         self.wait = wait(self.driver, 60)
     
   
@@ -73,7 +116,8 @@ class Navigator:
             # self.navigate_to_support_page(page_url)
             if self.Authenticator.is_logged_in():
                 logging.info("Already logged in")
-        
+            else:
+                logging.info("Not logged in")
         except WebDriverException as e :
             logging.error(f"Incorrect username or password", str(e))
    
@@ -95,24 +139,53 @@ class Navigator:
 
         return support_return_url
 
-class InteractionHandler:
-    '''This class handles tasks like clicking, dropdowns, and things that's not navigation or authentication. Keystrokes and the like'''
-    def __init__(self, driver, select, wait, dropdown_index=None):
+class Navigator:
+    '''This class wraps the driver, but adds some additional functionality to the webdriver.Edge class and is mostly use to navigate to pages, routing, and browser config'''
+    def __init__(self, driver, Authenticator, Navigator, wait):
         self.driver = driver
-        self.select = select
-        self.wait = wait
-        self.dropdown_index = dropdown_index
+        self.Authenticator = Authenticator
+        self.Navigator = Navigator
+        self.wait = wait(self.driver, 60)
+    
+    def init_browser_to_page(self, site_url, login_handle_id, password_handle_id, auth_code_id, search_term=None):
+        '''This method initializes the browser to the site, signs in, and handles 2fa, if necessary. 
+        site_url: the url of the site you want to go to
+        login_handle_id: the html id of the login handle
+        password_handle_id: the html id of the password handle
+        auth_code_id: the html id of the auth code handle'''
 
+        self.navigate_to_site(site_url)
+        try:
+            self.Authenticator.sign_in(login_handle_id, password_handle_id)
+            self.Authenticator.handle_2fa(auth_code_id)
+            if self.Authenticator.is_logged_in():
+                logging.info("Already logged in")
         
+        except WebDriverException as e:
+            logging.error("Incorrect username or password", str(e))
+   
+    def navigate_to_site(self, site_url):
+        self.driver.get(site_url)
+
+    def wait_for_search(self, search_term):
+        search_input = self.wait.until(EC.presence_of_element_located((By.XPATH, "//input[@placeholder='Search Program']")))
+        search_input.send_keys(search_term)
+    
+    def click_charts_sidebar_link(self):
+        link_element = self.driver.find_element(By.XPATH, "//a[@aria-label='Charts']")
+        link_element.click()
+    
+    def save_return_url(self):
+        '''This method saves the current url as a return point for the program to return to after it's done with a task'''
+        support_return_url = self.driver.current_url
+        return support_return_url
+
     def submit_button_click(self):
         submit_button = self.driver.find_element(By.XPATH, "//input[@type='submit']")
         submit_button.click()
     
-        #NOTE this might not even be necessary because of being able to get the URL, but it's here untiil that is the case
-    
     def click_selected_element(self, identifier_type, identifier):
         '''This method clicks an element by id, type, or xpath'''
-        #NOTE this honestly might not be good practice, but it's here for now
         element = None
         try:
             if identifier_type == "id":
@@ -121,33 +194,10 @@ class InteractionHandler:
                 element = self.driver.find_element(By.NAME, identifier)
             elif identifier_type == "xpath":
                 element = self.driver.find_element(By.XPATH, identifier)
-            elif identifier_type == "css":
-                element = self.driver.find_element(By.CSS_SELECTOR, identifier)
-            if element is not None:          
+            if element:
                 element.click()
-        except NoSuchElementException:
-            logging.exception(f"No such element: {identifier, identifier_type}")
-
-    def get_dropdown_length(self, dropdown_id):
-        dropdown = self.driver.find_element(By.ID, dropdown_id)
-        select = Select(dropdown)
-        dropdown_length = len(select.options)
-        return dropdown_length
-        
-    def dropdown_select(self, dropdown_id, dropdown_index=None): 
-        #NOTE the htmll id for dropdown_ID = "clientid_INT", html name tag is the same as the id
-        # dropdown index is going to be the integer that is iterator to be used in the for loop
-        try:
-            dropdown_element = self.driver.find_element(By.ID, dropdown_id)
-            wait(self.driver, 49).until(EC.presence_of_element_located((By.ID, dropdown_id)))
-            select = Select(dropdown_element)
-            if dropdown_index is not None:
-                dropdown_element = select.select_by_index(dropdown_index)
-            else:
-                dropdown_element = select.select_by_index(0)
-        except NoSuchElementException:
-            logging.exception(f"No such element: {dropdown_id}")
-
+        except NoSuchElementException as e:
+            logging.error("Element not found", str(e))
 
 
 class DataOperator:
@@ -182,12 +232,6 @@ class DataOperator:
 
 
 
-    
-    
-    
-
-
-
 class Authenticator:
     '''This class handles authentication, and is mostly used to sign in and 2fa'''
 
@@ -195,8 +239,8 @@ class Authenticator:
 
     def __init__(self, driver):
         self.driver = driver
-        self._username = os.getenv('USERNAME')
-        self._password = os.getenv('PASSWORD')
+        self._username = os.getenv('FOOTHOLD_USERNAME')
+        self._password = os.getenv('FOOTHOLD_PASSWORD')
         # self.driver.EC.wait = wait(self.driver, 60)
     def clear_login_fields(self):
         '''Clears the username and password fields'''
@@ -288,9 +332,9 @@ def main(iterator = None, info_dict = None, history_dict = None, done_list = Non
 
     driver = webdriver.Edge()
     auth = Authenticator(driver)
-    handler = InteractionHandler(driver,Select,iterator)
-    navigator = Navigator(driver, Authenticator, Navigator, InteractionHandler)
-    data = DataOperator(driver, InteractionHandler)
+  
+    navigator = Navigator(driver, Authenticator, Navigator)
+    data = DataOperator(driver, Navigator)
 
     
     navigator.init_browser_to_page('https://depaul.footholdtechnology.com', login_handle_id, password_handle_id, auth_code_id)
