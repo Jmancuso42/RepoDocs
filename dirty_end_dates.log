@@ -6,3 +6,1663 @@ INFO:root:Started
 INFO:root:Started
 INFO:root:Started
 INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:home page not detected
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+INFO:root:home page not detected
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+ERROR:root:No such element at username: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "C:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 141, in send_username
+    username_element = driver.find_element(By.XPATH, username_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element at password: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "C:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 150, in send_password
+    password_element = driver.find_element(By.XPATH, password_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name="submitbtn" and @type="submit"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "C:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 130, in click_submit_button
+    submit_button = self.driver.find_element(By.XPATH, SUBMIT_BUTTON_XPATH)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name="submitbtn" and @type="submit"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:jmancuso
+INFO:root:got foothold
+ERROR:root:No such element at username: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 141, in send_username
+    username_element = driver.find_element(By.XPATH, username_handle_XPATH)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element at password: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 150, in send_password
+    password_element = driver.find_element(By.XPATH, password_handle_XPATH)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name="submitbtn" and @type="submit"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 130, in click_submit_button
+    submit_button = self.driver.find_element(By.XPATH, SUBMIT_BUTTON_XPATH)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name="submitbtn" and @type="submit"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:submit button found
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element at username: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 165, in send_username
+    username_element = driver.find_element(By.XPATH, username_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element at password: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 174, in send_password
+    password_element = driver.find_element(By.XPATH, password_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element at username: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 166, in send_username
+    username_element = driver.find_element(By.XPATH, username_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element at password: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 175, in send_password
+    password_element = driver.find_element(By.XPATH, password_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:Timeout error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 71, in click_submit_button
+    wait(driver,10).until(EC.element_to_be_clickable((By.NAME, SUBMIT_BUTTON_NAME)))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element at username: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 166, in send_username
+    username_element = driver.find_element(By.XPATH, username_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element at password: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 175, in send_password
+    password_element = driver.find_element(By.XPATH, password_handle_XPATH)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+ERROR:root:No such element: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 72, in click_submit_button
+    submit_button = driver.find_element(By.NAME, SUBMIT_BUTTON_NAME)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A9F0332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A97EC92+216482]
+	(No symbol) [0x00007FF60A799E1B]
+	(No symbol) [0x00007FF60A7E9C6F]
+	(No symbol) [0x00007FF60A7E9DA5]
+	(No symbol) [0x00007FF60A82BB27]
+	(No symbol) [0x00007FF60A80C11F]
+	(No symbol) [0x00007FF60A7DD3E1]
+	(No symbol) [0x00007FF60A828A7E]
+	(No symbol) [0x00007FF60A80BD43]
+	(No symbol) [0x00007FF60A7DC162]
+	(No symbol) [0x00007FF60A7DB5BD]
+	(No symbol) [0x00007FF60A7DC994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA6CDA+1051354]
+	(No symbol) [0x00007FF60A85F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8F6215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF60A8EE6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF60ABA59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A988978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A984232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF60A978FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+import selenium
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+
+# Rest of the code...
+
+try:
+	submit_button = driver.find_element(By.NAME, SUBMIT_BUTTON_NAME)
+except NoSuchElementException as e:
+	raise NoSuchElementException(f"No such element: {e.msg}") from e
+
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:submit button found
+INFO:root:home page detected
+ERROR:root:No such element: detect support contact selection page
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"                  input.q-field__input.q-placeholder.col[type="search"]                      [role="combobox"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:clicked medical records link
+INFO:root:sent program input to search box
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:Timeout error: 
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[2]/div/div[11]/div/div[2]/a/div[2]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:submit button found
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="sidebar-flyout-charts"]/div[3]/div/div[5]/div[1]/div[2]/a"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":"[name="submitbtn"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:home page detected
+INFO:root:clicked charts sidebar link
+INFO:root:sent program input to search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked medical records link
+INFO:root:support page detected
