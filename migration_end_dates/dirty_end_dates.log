@@ -1666,3 +1666,719 @@ INFO:root:sent program input to search box
 INFO:root:clicked first item in dropdown list
 INFO:root:clicked medical records link
 INFO:root:support page detected
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:got foothold
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="handle"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="password"]"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:home page detected
+INFO:root:home page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:home page detected
+INFO:root:home page detected
+ERROR:root:Attribute error: 'WebDriver' object has no attribute 'upper'
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 204, in detect_support_contact_selection_page
+    driver.switch_to.frame(wait(driver, 5).until(EC.presence_of_element_located((By.XPATH, "//*[contains(@id, 'awards_classic_iframe')]"))))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:home page detected
+INFO:root:home page detected
+ERROR:root:Attribute error: 'WebDriver' object has no attribute 'upper'
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:home page detected
+INFO:root:home page detected
+ERROR:root:Attribute error: 'WebDriver' object has no attribute 'upper'
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:home page detected
+INFO:root:home page detected
+ERROR:root:Attribute error: 'WebDriver' object has no attribute 'upper'
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":".q-menu .q-item"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 15).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+ERROR:root:Type error: 'str' object is not callable
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 223, in detect_support_contact_selection_page
+    self.current_support_prog_return_url = self.driver.current_url()
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object is not callable
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 107, in click_selected_element
+    self.wait(self.driver, 8).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:support page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:Started
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 108, in click_selected_element
+    self.wait(self.driver, 4).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:support page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 108, in click_selected_element
+    self.wait(self.driver, 4).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":".q-menu .q-item"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 220, in detect_support_contact_selection_page
+    self.driver.switch_to.frame(self.wait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, "//*[contains(@id, 'awards_classic_iframe')]"))))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 108, in click_selected_element
+    self.wait(self.driver, 4).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:clicked first item in dropdown list
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked medical records link
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked support button
+INFO:root:support page detected
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 117, in click_selected_element
+    self.wait(self.driver, 4).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked element by xpath clear: False
+INFO:root:clicked charts link
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 117, in click_selected_element
+    self.wait(self.driver, 4).until(EC.presence_of_element_located(locator))
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:program input entered into search box
+ERROR:root:No such element: no such element: Unable to locate element: {"method":"css selector","selector":".q-menu .q-item"}
+  (Session info: MicrosoftEdge=120.0.2210.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+ERROR:root:Timeout error: 
+Traceback (most recent call last):
+  File "c:\Users\jmancuso\Repos\RepoDocs\migration_end_dates\dirty_end_dates.py", line 236, in detect_support_contact_selection_page
+    self.driver.switch_to.frame(self.wait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, "//*[contains(@id, 'awards_classic_iframe')]"))))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jmancuso\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF659330332+58194]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592BEC92+216482]
+	(No symbol) [0x00007FF6590D9E1B]
+	(No symbol) [0x00007FF659129C6F]
+	(No symbol) [0x00007FF659129DA5]
+	(No symbol) [0x00007FF65916BB27]
+	(No symbol) [0x00007FF65914C11F]
+	(No symbol) [0x00007FF65911D3E1]
+	(No symbol) [0x00007FF659168A7E]
+	(No symbol) [0x00007FF65914BD43]
+	(No symbol) [0x00007FF65911C162]
+	(No symbol) [0x00007FF65911B5BD]
+	(No symbol) [0x00007FF65911C994]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E6CDA+1051354]
+	(No symbol) [0x00007FF65919F596]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF659236215+34245]
+	Microsoft::Applications::Events::EventProperty::clear [0x00007FF65922E6BD+2669]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6594E59D3+1046483]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C8978+256648]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4104+238100]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592C4232+238402]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF6592B8FD1+192737]
+	BaseThreadInitThunk [0x00007FFE33E97344+20]
+	RtlUserThreadStart [0x00007FFE35A226B1+33]
+
+INFO:root:Started
+INFO:root:got foothold
+INFO:root:clicked element by xpath clear: False
